@@ -22,7 +22,7 @@ namespace WebApplication3
             }
             else
             {
-                Label4.Text = "Вы можете зарегистроваться сдесь...";
+                Label4.Text = "Вы можете зарегистроваться здесь...";
                 HyperLink1.Visible = true;
                 Button1.Visible = false;
             }
