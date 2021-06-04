@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7DC5198D-7D12-41FD-A3C3-8DFE3B1E4241}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication3</RootNamespace>
+    <AssemblyName>WebApplication3</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp, Version=5.5.10.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="AddProduct.aspx" />
+    <Content Include="AddtoCart.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\3.jpg" />
+    <Content Include="images\4.jpg" />
+    <Content Include="images\5.jpg" />
+    <Content Include="images\AddCart.jpg" />
+    <Content Include="images\asus.jpg" />
+    <Content Include="images\chasi.jpg" />
+    <Content Include="images\Ecommerce_1249.jpg" />
+    <Content Include="images\facebook.png" />
+    <Content Include="images\game.jpg" />
+    <Content Include="images\Honor 20 pro.jpg" />
+    <Content Include="images\hyperx cloud silver.jpg" />
+    <Content Include="images\logo_1.png" />
+    <Content Include="images\search.png" />
+    <Content Include="images\index.jpg" />
+    <Content Include="images\iphone.jpg" />
+    <Content Include="images\lenovo y520.jpg" />
+    <Content Include="images\luxury-letter-y-logo-vector-logo-template-sign-symbol-icon-vector-luxury-frame-stylish-boutique-restaurant-hotel-monogram-91155199 %282%29.jpg" />
+    <Content Include="images\Nikkon Camera.jpg" />
+    <Content Include="images\nokia.jpg" />
+    <Content Include="images\pic3.jpg" />
+    <Content Include="images\pngkit_instagram-icons-png-transparent_856104.png" />
+    <Content Include="images\ProductDocumentation\book1.html" />
+    <Content Include="images\ProductDocumentation\book10.html" />
+    <Content Include="images\ProductDocumentation\book11.html" />
+    <Content Include="images\ProductDocumentation\book12.html" />
+    <Content Include="images\ProductDocumentation\book13.html" />
+    <Content Include="images\ProductDocumentation\book14.html" />
+    <Content Include="images\ProductDocumentation\book2.html" />
+    <Content Include="images\ProductDocumentation\book3.html" />
+    <Content Include="images\ProductDocumentation\book4.html" />
+    <Content Include="images\ProductDocumentation\book5.html" />
+    <Content Include="images\ProductDocumentation\book6.html" />
+    <Content Include="images\ProductDocumentation\book7.html" />
+    <Content Include="images\ProductDocumentation\book8.html" />
+    <Content Include="images\ProductDocumentation\book9.html" />
+    <Content Include="images\ProductDocumentation\Packages\development_frameworks_21823146_vs_100_en-us_1%28bb774d52-f811-b251-a35b-7b6655881bbc%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\development_frameworks_21823146_vs_100_en-us_10%2873ade9f3-ec95-f56b-4b2f-cd4a86af8fb4%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\development_frameworks_21823146_vs_100_en-us_11%2871b95db8-dde6-7685-f5b5-1ac2e43c67d6%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\development_frameworks_21823146_vs_100_en-us_12%283411d0a1-cbab-2873-2498-c4efc12748b3%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\development_frameworks_21823146_vs_100_en-us_13%2839a2805b-4c8d-b7ca-a132-7fe7522f3644%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\development_frameworks_21823146_vs_100_en-us_14%28675fff53-5ea5-96f2-b763-f2ac0dc29846%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\development_frameworks_21823146_vs_100_en-us_15%28d5633f17-7a48-80a3-3d2e-80bd0ece38fb%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\development_frameworks_21823146_vs_100_en-us_16%282b911c1a-b174-ec55-7a6d-cde391605da4%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\development_frameworks_21823146_vs_100_en-us_17%287bf179dd-1432-d336-8c6a-9bb3982abd3e%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\development_frameworks_21823146_vs_100_en-us_18%28511c47db-2b45-b4bb-65bc-a449539463e5%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\development_frameworks_21823146_vs_100_en-us_19%28613df1e8-fa66-fbff-db66-fd715388ddaf%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\development_frameworks_21823146_vs_100_en-us_2%289577bc23-b8c9-270a-a926-568552e8740f%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\development_frameworks_21823146_vs_100_en-us_20%285f56cb18-d6b6-4866-81d8-843639d23645%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\development_frameworks_21823146_vs_100_en-us_21%282d6f0c35-3739-0b3d-8d10-958896ae46d1%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\development_frameworks_21823146_vs_100_en-us_3%284c4f6f0f-fc1a-6790-388e-add4c1050e68%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\development_frameworks_21823146_vs_100_en-us_4%28670a2e37-ab50-bc1e-02ba-fe958437a4ad%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\development_frameworks_21823146_vs_100_en-us_5%280cc65128-5bc9-d209-9da9-3e3d68994eb8%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\development_frameworks_21823146_vs_100_en-us_6%281595fc65-875a-c6ff-f396-28bd56ae25ba%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\development_frameworks_21823146_vs_100_en-us_7%285ce01009-b526-7b25-59ac-4dd418e96e9e%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\development_frameworks_21823146_vs_100_en-us_8%287f891ec3-7c3a-3f39-04f3-b2d0510a0798%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\development_frameworks_21823146_vs_100_en-us_9%289cd0ed25-90d9-c54b-fa42-e393c38467ff%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_20055766_vs_100_en-us_1%28b8ca657d-5711-906c-cee2-d7be4c0cb586%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_20055766_vs_100_en-us_2%2849636513-ffcc-1fd5-7121-80c32aae9f36%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_20219249_exchg_10_en-us_1%282d059c70-6719-aded-9edc-84833dfe9dd2%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_20219249_vs_85_en-us_1%286e1ef62f-427b-86e1-1b59-c73e51ba56e2%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_20219249_vs_85_en-us_10%2800f48991-4dfa-11aa-bc37-89fb791c6232%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_20219249_vs_85_en-us_11%287c16e9a1-9518-f50a-facd-b28716615b69%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_20219249_vs_85_en-us_12%2873365c52-76cc-0a34-0101-02450f2d56ce%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_20219249_vs_85_en-us_2%28360952ae-6065-4d5d-cbe4-906e5f0659d6%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_20219249_vs_85_en-us_3%2811a56f4b-9a6f-126f-91be-c0c65c7b9345%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_20219249_vs_85_en-us_4%28468428fa-570e-6a30-fe71-4f97256ac7dc%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_20219249_vs_85_en-us_5%28865fa2c8-36ba-44b3-9c12-a1e0d2139880%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_20219249_vs_85_en-us_6%286360c761-ee3a-0cc5-8390-f93b57a92109%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_20219249_vs_85_en-us_7%28beb932f5-1bbc-8668-9748-abb0a2ef1ee1%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_20219249_vs_85_en-us_8%284fa97654-2e8e-36fb-0380-5e04546f8e9f%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_20219249_vs_85_en-us_9%280de9cb87-00cf-21f2-1c45-7472d2cd5056%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_20219249_vs_90_en-us_1%28a30cb4ac-a991-344e-63dd-46d39f97d218%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_21800791_vs_100_en-us_1%285e91e218-d24c-689b-c776-35389b4bbd87%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_21800791_vs_100_en-us_2%281d541244-6ad2-c731-4378-370b8b18fd34%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_21800791_vs_100_en-us_3%285563e360-07db-b3ba-a6d9-b74956d67bc9%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_21800791_vs_100_en-us_4%28d6a9b6ae-0779-f512-9b48-2a551e449ece%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_21800791_vs_100_en-us_5%2873d87dc9-2017-38d7-af30-e7e9107535bc%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_21800791_vs_100_en-us_6%288a4de569-802c-185f-4086-763418039db9%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_21800792_vs_100_en-us_1%28bef11066-9bd1-66e6-cfeb-43eeb72dc12e%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_27021414_vs_100_en-us_1%2887fc1d14-a9f5-1d1d-4e1e-6c7332430dc6%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_27021415_vs_100_en-us_1%289e81fa85-0b7b-c726-af3c-6a83d473c6d3%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_27021417_vs_100_en-us_1%28f7afd809-06eb-cff9-f39b-b6799d476141%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_27021418_vs_100_en-us_1%285c6cb6f0-f7aa-9b39-c4f5-d12d532f3750%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_27022830_vs_100_en-us_1%281b07aeda-1bfa-ff6d-7a98-737ea736ae4e%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_27029138_vs_100_en-us_1%289bca43cd-ce3d-e138-3e9a-b1fd0a7f8ff0%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_27029138_vs_100_en-us_2%288a00ee7f-5def-5932-6652-81d5417f053c%29.cab" />
+    <Content Include="images\ProductDocumentation\Packages\visual_studio_27029139_vs_100_en-us_1%28de2a8723-67de-4fa2-0365-d68f2aa33ded%29.cab" />
+    <Content Include="images\ProductDocumentation\product1.html" />
+    <Content Include="images\ProductDocumentation\product2.html" />
+    <Content Include="images\razer abyssus essential.jpg" />
+    <Content Include="images\Remote Debugger\rdbgsetup_x64.exe" />
+    <Content Include="images\Remote Debugger\rdbgsetup_x86.exe" />
+    <Content Include="images\robot.jpg" />
+    <Content Include="images\Setup\addInfoBand.gif" />
+    <Content Include="images\Setup\adminmodeinfo.htm" />
+    <Content Include="images\Setup\adminreadme.htm" />
+    <Content Include="images\Setup\admintoolinfo.htm" />
+    <Content Include="images\Setup\admin_ban.bmp" />
+    <Content Include="images\Setup\banner.bmp" />
+    <Content Include="images\Setup\banner_blank.bmp" />
+    <Content Include="images\Setup\big-info.png" />
+    <Content Include="images\Setup\BlockMSI_Text.htm" />
+    <Content Include="images\Setup\BlockWIC_Text.htm" />
+    <Content Include="images\Setup\blueRule.gif" />
+    <Content Include="images\Setup\bullet.png" />
+    <Content Include="images\Setup\deletetemp.exe" />
+    <Content Include="images\Setup\dividerArt.jpg" />
+    <Content Include="images\Setup\dlmgr.dll" />
+    <Content Include="images\Setup\failed.htm" />
+    <Content Include="images\Setup\gencomp.dll" />
+    <Content Include="images\Setup\greenRule.gif" />
+    <Content Include="images\Setup\htmllite.dll" />
+    <Content Include="images\Setup\IA64block_text.htm" />
+    <Content Include="images\Setup\info-icon.png" />
+    <Content Include="images\Setup\install2.htm" />
+    <Content Include="images\Setup\install_button.png" />
+    <Content Include="images\Setup\large_information.bmp" />
+    <Content Include="images\Setup\License.txt" />
+    <Content Include="images\Setup\maint_ban.bmp" />
+    <Content Include="images\Setup\msvcp100.dll" />
+    <Content Include="images\Setup\msvcr100.dll" />
+    <Content Include="images\Setup\office2003_help.htm" />
+    <Content Include="images\Setup\office2003_text.htm" />
+    <Content Include="images\Setup\pidgenx.dll" />
+    <Content Include="images\Setup\pkconfig.xrm-ms" />
+    <Content Include="images\Setup\readme.htm" />
+    <Content Include="images\Setup\redRule.gif" />
+    <Content Include="images\Setup\Securitynotes.htm" />
+    <Content Include="images\Setup\SelfBlock_text.htm" />
+    <Content Include="images\Setup\setup.exe" />
+    <Content Include="images\Setup\setupres.dll" />
+    <Content Include="images\Setup\SITSetup.dll" />
+    <Content Include="images\Setup\smallFail.gif" />
+    <Content Include="images\Setup\smallSuccess.gif" />
+    <Content Include="images\Setup\sqmapi.dll" />
+    <Content Include="images\Setup\styles.css" />
+    <Content Include="images\Setup\uninstall1.htm" />
+    <Content Include="images\Setup\uninstall2.htm" />
+    <Content Include="images\Setup\upgrade.htm" />
+    <Content Include="images\Setup\usercancelled.htm" />
+    <Content Include="images\Setup\vs70pgRes.dll" />
+    <Content Include="images\Setup\vs70pgui.dll" />
+    <Content Include="images\Setup\vs70uimgr.dll" />
+    <Content Include="images\Setup\vsbasereqs.dll" />
+    <Content Include="images\Setup\vsscenario.dll" />
+    <Content Include="images\Setup\vs_setup.dll" />
+    <Content Include="images\Setup\watermark.bmp" />
+    <Content Include="images\Setup\windowsSP_Requirements.htm" />
+    <Content Include="images\Setup\WindowsUpdate_Required_Text.htm" />
+    <Content Include="images\vk.png" />
+    <Content Include="images\Xiaomi enchen 3.jpg" />
+    <Content Include="images\Xiaomi mi 9t pro.jpg" />
+    <Content Include="images\Xiaomi mi tws lite.jpg" />
+    <Content Include="itextsharp.dll" />
+    <Content Include="Login.aspx" />
+    <Content Include="Pdf_generate.aspx" />
+    <Content Include="PlaceOrder.aspx" />
+    <Content Include="register.aspx" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WebForm1.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddProduct.aspx.cs">
+      <DependentUpon>AddProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddProduct.aspx.designer.cs">
+      <DependentUpon>AddProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddtoCart.aspx.cs">
+      <DependentUpon>AddtoCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddtoCart.aspx.designer.cs">
+      <DependentUpon>AddtoCart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.Master.cs">
+      <DependentUpon>Default.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.Master.designer.cs">
+      <DependentUpon>Default.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pdf_generate.aspx.cs">
+      <DependentUpon>Pdf_generate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pdf_generate.aspx.designer.cs">
+      <DependentUpon>Pdf_generate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PlaceOrder.aspx.cs">
+      <DependentUpon>PlaceOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PlaceOrder.aspx.designer.cs">
+      <DependentUpon>PlaceOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\ProductDocumentation\HelpContentSetup.msha" />
+    <None Include="images\Setup\adlist.ini" />
+    <None Include="images\Setup\baseline.dat" />
+    <None Include="images\Setup\deffactory.dat" />
+    <None Include="images\Setup\locdata.ini" />
+    <None Include="images\Setup\setup.sdb" />
+    <None Include="images\Setup\vs_setup.pdi" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>9501</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
