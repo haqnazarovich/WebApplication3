@@ -16,7 +16,7 @@
             <br /><br />
         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" 
             BackColor="#FF6699" BorderColor="#333333" BorderWidth="5px" 
-            EmptyDataText="No Product Avilable in shopping cart" Font-Bold="True" 
+            EmptyDataText="Вы не добавили продукта в корзину" Font-Bold="True" 
             Height="257px" ShowFooter="True" Width="1100px" 
             onrowdeleting="GridView1_RowDeleting" 
             onselectedindexchanged="GridView1_SelectedIndexChanged">

@@ -149,7 +149,7 @@
                     <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Login.aspx">Зарегистрирован?</asp:HyperLink>
                 </td>
                 <td class="style7">
-                    <asp:Button ID="Button1" runat="server" Text="Register" Height="57px" 
+                    <asp:Button ID="Button1" runat="server" Text="Регистрация" Height="57px" 
                         Width="257px" Font-Bold="True" Font-Size="Larger" 
                         onclick="Button1_Click" />
                 </td>

@@ -43,14 +43,14 @@
     </tr>
      <tr>
     <td style="text-align:center; background-color:#5f98f3" >
-        <asp:Label ID="Label2" runat="server" Text="Price:Rs" Font-Bold="True" 
+        <asp:Label ID="Label2" runat="server" Text="Price:Rub" Font-Bold="True" 
             Font-Names="Arial" ForeColor="White" style="text-align:center"></asp:Label>
               <asp:Label ID="Label3" runat="server" Text='<%# Eval("Pprice") %>' Font-Bold="True" 
             Font-Names="Arial" ForeColor="White" style="text-align:center"></asp:Label>
     </td>
     </tr>
      <tr>
-    <td align="center">Quantity
+    <td align="center">Количество
         <asp:DropDownList ID="DropDownList1" runat="server">
             <asp:ListItem>1</asp:ListItem>
             <asp:ListItem>2</asp:ListItem>
